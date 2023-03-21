@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BasketBall</title>
+</head>
+
+<body>
+
+  <style>
+    li {
+      margin: 10px;
+    }
+  </style>
+
+  <div class="player-detail">
+    <h3 class="addPlayer"></h3>
+    <% alldata.forEach((item)=>{ %>
+      <ul>
+        <li style="font-size:25px ; color: red;font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+          <b>
+            <%=item.name %>
+          </b></li>
+        <li>Points: <%=item.points %>
+        </li>
+        <li>Rebound: <%=item.rebounds%>
+        </li>
+        <li>Assists: <%=item.assists %>
+        </li>
+        <li>Blocks: <%=item.blocks %>
+        </li>
+      </ul>
+      <div>
+        <%})    
+    %>
+
+</body>
+
+</html>
