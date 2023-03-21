@@ -11,7 +11,7 @@ Usage
 API Reference
 Contributing
 License
-Contact
+Contact 
 
 
 Installation
